@@ -1,7 +1,7 @@
 public class Lion implements Domesticatable, Tradable{
 
     public Lion(){
-        int max_speed = 10;
+        int maxSpeed = 10;
     }
 
     @Override
