@@ -1,5 +1,4 @@
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 import static org.junit.Assert.assertEquals;
 
@@ -7,7 +6,7 @@ public class WolfTest {
     Wolf w;
     @Before
     public void setUp() throws Exception {
-        Wolf w = new Wolf();
+        w = new Wolf();
     }
 
     @Test(timeout = 50)
