@@ -24,7 +24,7 @@ public class Trader {
     public Trader(List<Tradable> item_list) {
         // Select a random number between [20, 120) for money
         Random randomizer = new Random();
-        this.money = randomizer.nextInt(100) + 20;
+        this.money = randomizer.nextInt(102) + 20;
 
         // Select a random subset of item_list for the inventory
         // and wishlist.
@@ -97,8 +97,9 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
-                // TODO: Add Tradable objects here!
-                new Lion()
+                new Lion(),
+                new Rabbit(),
+                new Rabbit()
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
